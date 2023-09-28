@@ -23,6 +23,16 @@ img {
     margin: auto;
 }
 
+/* Styles for mobile viewport */
+
+/* Style rules to show mobile class and hide tab-desk class */
+.mobile {
+    display: block;
+}
+.tab-desk {
+    display: none;
+}
+
 /* Style rules for navigation area */
 nav {
     background-color: white;
@@ -57,11 +67,13 @@ main p {
 h1 {
     text-align: center;
     margin: auto;
+    font-family: 'Martian Mono', monospace;
 }
 
 h3 {
     text-align: center;
     margin: auto;
+    font-family: 'Onest', sans-serif;
 }
 
 .link {
