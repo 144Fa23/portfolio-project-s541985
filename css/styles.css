@@ -98,3 +98,22 @@ footer a {
     color: black;
     text-decoration-color: none;
 }
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 1000px), print {
+    
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 620px), print {
+    
+}
+
+/* Tablet Viewport: Show tab-desk class, hide mobile class */
+.tablet-desktop {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
